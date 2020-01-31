@@ -1,0 +1,24 @@
+{
+  "name": "firstproject",
+  "version": "1.0.0",
+  "description": "First Node/MySQL REST API Project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/phemidawhiz/Node-MySQL-REST-API.git"
+  },
+  "author": "Ayodele Olufemi",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
